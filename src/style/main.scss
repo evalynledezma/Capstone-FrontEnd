@@ -26,3 +26,8 @@ body {
     display: grid;
     justify-items: center;
 }
+
+@import './nav.scss';
+@import './home.scss';
+@import './add-item.scss';
+@import './items.scss';

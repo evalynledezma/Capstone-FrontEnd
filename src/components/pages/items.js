@@ -33,8 +33,8 @@ export default class Items extends Component {
     const itemsHTML = this.state.items.map((item) => {
       return (
         <div className="item-wrapper">
-          <h3> {item.name}</h3>
-          <p>${item.price / toFixed(2)}</p>
+          <h3 className="title"> {item.name}</h3>
+          <p className="description">${item.price / toFixed(2)}</p>
         </div>
       );
     });
